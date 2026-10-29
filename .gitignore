@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Airflow
+logs/
+
+# Secrets : ne jamais les publier
+.env
+*.json
+credentials/
+keys/
+
+# Éditeur et système
+.vscode/
+.DS_Store
+Thumbs.db
